@@ -1,1 +1,36 @@
 // Mixins Here
+
+.mixin1 (@padding-length,@padding-width) {
+    background:@ebony-clay;
+    border-radius: 10px;
+    // padding: 12px 15px;
+    padding: @padding-length @padding-width;
+    font-size: 16px;
+    color:@sea-shell;
+    height: 2em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.mixin2 {
+    &:hover {
+        background: @sea-shell;
+        color: @ebony-clay;
+    }
+}
+
+// .mixin3 {
+//     background:@ebony-clay;
+//     border-radius: 10px;
+//     padding: 20px 140px;
+//     font-size: 16px;
+//     color:@sea-shell;
+//     height: 2em;
+//     text-align: center;
+//     display: table-cell;
+//     vertical-align: middle;
+//     font-size: 2em;
+// }
+

@@ -1,1 +1,42 @@
 // Navigation code here
+.navbar {
+    position: fixed;
+    opacity:.5;
+    width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    padding: 10px;
+    padding-top: 1em;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    background: @nav-bg;
+    h2 {
+        text-align: center;
+    }
+    nav {
+        width: 70%;
+        padding-left: 50em; 
+        padding-inline: 1em;
+        
+        ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    li {
+        margin: 2em;
+        font-style: @river-bend;
+            
+        a {
+        color: @ebony-clay;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5em;
+        }
+        }
+    }
+}
