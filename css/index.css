@@ -1,30 +1,6 @@
-.mixin1 {
-  background: #23293B;
-  border-radius: 10px;
-  padding: 12px 15px;
-  font-size: 16px;
-  color: #F1F1F1;
-  height: 2em;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 2em;
-}
 .mixin2:hover {
   background: #F1F1F1;
   color: #23293B;
-}
-.mixin3 {
-  background: #23293B;
-  border-radius: 10px;
-  padding: 20px 140px;
-  font-size: 16px;
-  color: #F1F1F1;
-  height: 2em;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 2em;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -207,8 +183,8 @@ p {
   text-align: center;
 }
 .navbar nav {
-  width: 80%;
-  padding-left: 40em;
+  width: 70%;
+  padding-left: 50em;
   padding-inline: 1em;
 }
 .navbar nav ul {
